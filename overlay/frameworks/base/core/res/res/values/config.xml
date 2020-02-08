@@ -381,4 +381,8 @@
     <!-- Enable lockscreen blur feature -->
     <bool name="config_uiBlurEnabled">false</bool>
 
+    <!-- Use time from NTP in low latency conditions. -->
+    <integer name="config_ntpThreshold">10</integer>
+    <integer name="config_ntpTimeout">200</integer>
+
 </resources>
